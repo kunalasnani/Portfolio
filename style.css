@@ -7,6 +7,7 @@
 body{
     background-color: rgb(20, 20, 20);
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 .header{
      position: fixed;
@@ -20,14 +21,23 @@ body{
      align-items: center;
      z-index: 100;
 }
+.header a:hover{
+    color: aqua}
 .logo{
     font-size: 25px;
     color: rgb(255, 255, 255);
 }
 
-.navbar{
-     font-size: ehilr;
-color: red;    
+.navbar a{
+     font-size: 18px;
+     color: white;
+     text-decoration: none;
+     font-weight: 500;
+     transition: 0.3s;    
+}
+
+.navbar a:hover{
+    color: rgb(57, 162, 67);
 }
 
 .home{
@@ -40,6 +50,19 @@ color: red;
     padding: 70px 10% 0;
 }
 
+.home-content h1{
+    font-size: 56px;
+    font-weight: 500;
+    margin: -3px 0;
+    
+}
+
+.home-content h3 span{
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(20, 195, 128);
+}
+
 .home-content{
 
     max-width: 600px;
@@ -47,4 +70,30 @@ color: red;
 
 .home-img img{
     max-width: 450px;
+    background-color: rgb(239, 26, 235);
+    border-radius: 15%;
+    margin-bottom: 400px;
+    margin-right: -10px;
 }
+
+.social-media a{
+    display: inline-flex;
+    justify-content: left;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    margin-top: 20px;
+    font-size: 20px;
+    color: aquamarine;
+    text-decoration: none;
+    border-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color:rgb(13, 147, 84) ;
+    border-radius: 40px;
+    box-shadow: 0 0 10px;
+}
+
