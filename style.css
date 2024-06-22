@@ -26,6 +26,22 @@ body{
 .logo{
     font-size: 25px;
     color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800px;
+    cursor: pointer;
+    
+}
+
+@keyframes slideRight{
+        
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 
 .navbar a{
@@ -54,6 +70,7 @@ body{
     font-size: 56px;
     font-weight: 500;
     margin: -3px 0;
+    animation: slideRight 4s ease forwards;
     
 }
 
@@ -61,6 +78,7 @@ body{
     font-weight: 700;
     font-style: italic;
     color: rgb(20, 195, 128);
+    animation: slideRight 5s ease forwards;
 }
 
 .home-content{
@@ -74,6 +92,7 @@ body{
     border-radius: 15%;
     margin-bottom: 400px;
     margin-right: -10px;
+    
 }
 
 .social-media a{
@@ -87,13 +106,22 @@ body{
     color: aquamarine;
     text-decoration: none;
     border-top: 20px;
+    
 }
 
 .btn {
     display: inline-block;
     padding: 12px 28px;
-    background-color:rgb(13, 147, 84) ;
+    border-color:rgb(26, 184, 110) ;
     border-radius: 40px;
     box-shadow: 0 0 10px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(8, 18, 19);
+    color: aqua;
+    margin-top: 20px;
 }
+
+
+
 
